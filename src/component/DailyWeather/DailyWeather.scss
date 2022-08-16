@@ -1,0 +1,44 @@
+.weather {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px;
+  padding: 10px;
+  box-shadow: inset 0 0 10px #000000;
+
+  &__temp {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    width: 170px;
+    height: 100px;
+  }
+
+  &__celcius {
+    font-size: 30px;
+    font-weight: 600;
+    padding-left: 20px;
+  }
+
+  &__icon {
+    height: 60px;
+    width: 60px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+  }
+}
+
+.stats {
+  height: 370px;
+  padding: 20px;
+
+  &__row {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid rgba(245, 245, 245, 0.479);
+    font-size: larger;
+    margin-bottom: 20px;
+  }
+}
