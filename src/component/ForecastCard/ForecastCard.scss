@@ -1,0 +1,33 @@
+.forecast{
+    display: flex;
+    flex-direction: column;
+  justify-content: space-between;
+ border: 2px solid black;
+ width: 350px;
+ padding: 10px;
+ align-items: center;
+//  border-radius: 6px;
+//  box-shadow: 10px -2px 20px 2px rgb(0 0 0 / 30%);
+//  border-bottom: 2px solid rgba(255, 255, 255, 0.507);
+//  border-top: 2px solid rgba(255, 255, 255, 0.514);
+padding-top: 10px;
+padding-bottom: 10px;
+
+    &__icon{
+        height: 40px;
+        width: 40px;
+        padding-left: 20px;
+        
+    }
+
+    &__date{
+        display: flex;
+        align-items: center;
+      
+    }
+
+    &__temp{
+        display: flex;
+        
+    }
+}
