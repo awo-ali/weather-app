@@ -9,8 +9,9 @@ const forecastArray = (forecast) => {
 return forecast.slice(0, 4).map((forecast, index) => (
 <ForecastCard
 // icon={forecast.weather.icon}
-maxTemp={forecast.main.temp_max}
-minTemp={forecast.main.temp_min}
+maxTemp={forecast.main ? (forecast.main.temp_max) : ''}
+minTemp={forecast.main ? (forecast.main.temp_min) : ''}
+icon={forecast.weather ? (forecast.weather[0].icon) : ''}
 key={index}
 />
 ));
